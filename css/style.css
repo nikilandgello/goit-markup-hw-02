@@ -69,12 +69,15 @@ body {
     color: var(--ocean);
 }
 
+.address {
+    font-style: normal;
+}
+
 .address .info .link {
     font-style: normal;
     color: var(--slate);
     letter-spacing: 0.02em;
     line-height: 1.5;
-    text-decoration: none;
 }
 
 .address .info .link:hover,
