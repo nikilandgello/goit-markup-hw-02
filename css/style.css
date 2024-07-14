@@ -35,12 +35,12 @@ body {
     font-size: 20px;
     color: var(--navy-blue);
     line-height: 1.2;
-    letter-spacing: 2%;  
+    letter-spacing: 0.02em;  
 }
 
 .groups-text {
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .logo {
@@ -48,68 +48,66 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
-    color: var(--navy-blue);
+    color: var(--iris);
 }
 
-.logo .logo-web {
-    color: var(--iris);
+.logo .logo-studio {
+    color: var(--navy-blue);
 }
 
 .menu-nav .link {
     font-weight: 500;
-    text-decoration: none;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
 
-.menu-nav .studio .link:hover,
 .menu-nav .link:hover {
-    text-decoration: none;
     color: var(--ocean);
 }
 
-.menu-nav .studio .link:active {
-    text-decoration: underline;
+.menu-nav .link:active {
     color: var(--ocean);
 }
 
 .address .info .link {
-    text-decoration: none;
+    font-style: normal;
     color: var(--slate);
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.5;
 }
 
-.address .info .link:hover {
+.address .info .link:hover
+.address .info .link:active {
     color: var(--ocean);
 }
 
 .page-title {
     color: #fff;
-    text-align: center;
     background: var(--navy-blue);
+    text-align: center;
 }
 
-.page-title .header1 {
+.page-title .header-page-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .page-title .button{
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5%;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white);
     background-color: var(--iris);
 }
 
-.page-title .button:hover {
+.page-title .button:hover
+.page-title .button:active {
     background-color: var(--ocean);
 }
 
@@ -117,40 +115,32 @@ body {
     background: var(--cloud);
 }
 
-.our-team-groups .mark-guerrero {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: var(--white);
-}
-
-.our-team-groups .tom-ford {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: var(--white);
-}
-
-.our-team-groups .camila-garcia {
-    background: var(--white);
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
-.our-team-groups .daniel-wilson {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: var(--white);
-}
-
-.our-team-groups .groups-title,
-.our-team-groups .groups-text {
+.our-team .section-title {
+    line-height: 1.11;
     text-align: center;
+    text-transform: capitalize;
+}
+
+.our-team-groups .card-team  {
+    text-align: center;
+}
+
+.our-portfolio .section-title {
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .footer {
     background-color: var(--navy-blue);;
 }
 
-.footer .logo {
+.footer .logo-studio {
     color: var(--cloud);
 }
 
 .footer-text {
+
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--cloud);
