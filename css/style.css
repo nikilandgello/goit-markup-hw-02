@@ -64,10 +64,7 @@ body {
     color: var(--navy-blue);
 }
 
-.menu-nav .link:hover {
-    color: var(--ocean);
-}
-
+.menu-nav .link:hover,
 .menu-nav .link:active {
     color: var(--ocean);
 }
@@ -77,9 +74,10 @@ body {
     color: var(--slate);
     letter-spacing: 0.02em;
     line-height: 1.5;
+    font-style: normal;
 }
 
-.address .info .link:hover
+.address .info .link:hover,
 .address .info .link:active {
     color: var(--ocean);
 }
@@ -106,7 +104,7 @@ body {
     background-color: var(--iris);
 }
 
-.page-title .button:hover
+.page-title .button:hover,
 .page-title .button:active {
     background-color: var(--ocean);
 }
@@ -119,16 +117,19 @@ body {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 
 .our-team-groups .card-team  {
     text-align: center;
+    background-color: var(--white);
 }
 
 .our-portfolio .section-title {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 
 .footer {
